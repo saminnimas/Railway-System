@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    text-decoration: none;
+}
+/* navbar */
+.navbar {
+    background: rgb(22, 9, 12); font-family: calibri;
+    padding-left: 10px; padding-right: 10px;
+}
+
+.nav-container {
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+li{
+    list-style: none; display: inline-block;
+}
+
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 20px;
+}
+
+/* form */
+.profile-container {
+    background: url("../imgs/train.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    Flex-direction:column;
+    height: 100vh;
+}
+
+.inner-container {
+    width: 70%;
+    background: rgb(132, 164, 138);
+    padding: 1em;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.inner-container .title {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.inner-container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .details {
+    margin: 15px 0 10px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+/* .details p {
+    font-weight: 500;
+    margin-bottom: 5px;
+} */
+
+.user-details .details p {
+    height: 45px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.selected .selected-date input {
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.inner-container .button {
+    height: 45px;
+    margin: 20px 0;
+}
+
+.inner-container .button input {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background: green;
+}
